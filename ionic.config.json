@@ -1,0 +1,8 @@
+{
+  "name": "IonicToDoList",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "npmClient": "yarn"
+}
