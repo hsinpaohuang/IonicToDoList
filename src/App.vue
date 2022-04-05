@@ -34,6 +34,7 @@ onMounted(() => { console.log('Hello from onMounted') });
 ion-fab {
   margin-bottom: 4em;
 }
+
 .force-hidden {
   visibility: hidden;
   opacity: 0;
@@ -44,6 +45,7 @@ ion-fab {
   width: 0;
   height: 0;
 }
+
 ion-fab-button {
   font-size: 24px;
   a {
@@ -56,5 +58,9 @@ ion-fab-button {
       color: white;
     }
   }
+}
+
+ion-input {
+  color: var(--ion-color-dark) !important;
 }
 </style>
