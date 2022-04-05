@@ -1,0 +1,6 @@
+{
+	"appId": "com.hsinpaohuang.todolist",
+	"appName": "IonicToDoList",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

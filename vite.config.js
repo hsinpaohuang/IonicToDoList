@@ -7,7 +7,9 @@ import eslintPlugin from 'vite-plugin-eslint';
 export default defineConfig({
   plugins: [
     eslintPlugin(),
-    vue(),
+    vue({
+      reactivityTransform: true,
+    }),
   ],
   server: {
     port: 8100,
