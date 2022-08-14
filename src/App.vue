@@ -20,9 +20,9 @@
 import { onMounted } from 'vue';
 import { IonApp, IonFab, IonFabButton, IonIcon } from '@ionic/vue';
 import { add } from 'ionicons/icons';
-import ViewImageModal from '@/views/ViewImageModal.vue';
-import TabBar from '@/components/TabBar.vue';
-import { useListStore } from '@/store/list';
+import ViewImageModal from '@src/views/ViewImageModal.vue';
+import TabBar from '@src/components/TabBar.vue';
+import { useListStore } from '@src/store/list';
 
 const listStore = useListStore();
 listStore.initialize();

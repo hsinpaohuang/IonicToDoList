@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import TodoList from '@/views/TodoList.vue';
-import EditModal from '@/views/EditModal.vue';
+import TodoList from '@src/views/TodoList.vue';
+import EditModal from '@src/views/EditModal.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {

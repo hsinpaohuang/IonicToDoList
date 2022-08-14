@@ -39,8 +39,8 @@ import '@ionic/vue/css/ionic-swiper.css';
 import 'swiper/scss';
 import 'swiper/scss/autoplay';
 import 'swiper/css/zoom';
-import { usePreviewImageStore } from '@/store/previewImage';
-import { readImg } from '@/utils/readImg';
+import { usePreviewImageStore } from '@src/store/previewImage';
+import { readImg } from '@src/utils/readImg';
 
 const previewImageStore = usePreviewImageStore();
 const previewImage = computed(() => previewImageStore.getPreviewImage);

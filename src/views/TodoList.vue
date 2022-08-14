@@ -14,8 +14,8 @@
 <script setup lang="ts">
 import { useRoute, useRouter } from 'vue-router';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import PreviewCards from '@/components/TodoList/PreviewCards.vue';
-import { ListItemType } from '@/models/ListItem';
+import PreviewCards from '@src/components/TodoList/PreviewCards.vue';
+import { ListItemType } from '@src/models/ListItem';
 
 const router = useRouter();
 const type = useRoute().params.type as ListItemType;

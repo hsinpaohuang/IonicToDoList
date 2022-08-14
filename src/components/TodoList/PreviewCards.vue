@@ -59,10 +59,10 @@ import { computed, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonRow, IonCol, IonCheckbox, IonButton, IonIcon } from '@ionic/vue';
 import { archive, returnUpBack, trash } from 'ionicons/icons';
-import { ListItem, ListItemType } from '@/models/ListItem';
-import { useListStore } from '@/store/list';
-import deleteAlert from '@/utils/deleteAlert';
-import slideDirection, { SlideDirection } from '@/utils/getSlideDirection';
+import { ListItem, ListItemType } from '@src/models/ListItem';
+import { useListStore } from '@src/store/list';
+import deleteAlert from '@src/utils/deleteAlert';
+import slideDirection, { SlideDirection } from '@src/utils/getSlideDirection';
 
 const pageType = useRoute().params.type as ListItemType;
 

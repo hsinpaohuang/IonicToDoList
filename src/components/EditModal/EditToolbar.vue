@@ -40,10 +40,10 @@
 import { IonHeader, IonToolbar, IonButtons, IonButton, IonIcon } from '@ionic/vue';
 import { chevronBack, checkbox, archive, trash } from 'ionicons/icons';
 import { useRouter } from 'vue-router';
-import { useListStore } from '@/store/list';
-import deleteAlert from '@/utils/deleteAlert';
-import { EditModalMode } from '@/views/EditModal.vue';
-import { ListItemType } from '@/models/ListItem';
+import { useListStore } from '@src/store/list';
+import deleteAlert from '@src/utils/deleteAlert';
+import { EditModalMode } from '@src/views/EditModal.vue';
+import { ListItemType } from '@src/models/ListItem';
 
 interface EditToolbarProps {
   mode: EditModalMode;

@@ -1,5 +1,5 @@
-import createTimeStamp from '@/utils/createTimeStamp';
-import { base64Header, ListItem, ListItemType } from '@/models/ListItem';
+import createTimeStamp from '@src/utils/createTimeStamp';
+import { base64Header, ListItem, ListItemType } from '@src/models/ListItem';
 import { defineStore } from 'pinia';
 import { Storage } from '@capacitor/storage';
 

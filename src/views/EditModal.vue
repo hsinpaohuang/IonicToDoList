@@ -34,10 +34,10 @@ export enum EditModalMode {
 import { computed } from 'vue';
 import { IonModal, IonInput } from '@ionic/vue';
 import { useRoute } from 'vue-router';
-import { useListStore } from '@/store/list';
-import EditToolbar from '@/components/EditModal/EditToolbar.vue';
-import ImageSwiper from '@/components/EditModal/ImageSwiper.vue';
-import FabList from '@/components/EditModal/FabList.vue';
+import { useListStore } from '@src/store/list';
+import EditToolbar from '@src/components/EditModal/EditToolbar.vue';
+import ImageSwiper from '@src/components/EditModal/ImageSwiper.vue';
+import FabList from '@src/components/EditModal/FabList.vue';
 
 const listStore = useListStore();
 const id = computed(() => Number(route.params.id));

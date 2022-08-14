@@ -28,9 +28,9 @@ import '@ionic/vue/css/ionic-swiper.css';
 import 'swiper/scss';
 import 'swiper/scss/autoplay';
 import 'swiper/css/zoom';
-import { useListStore } from '@/store/list';
-import { usePreviewImageStore } from '@/store/previewImage';
-import { readImg } from '@/utils/readImg';
+import { useListStore } from '@src/store/list';
+import { usePreviewImageStore } from '@src/store/previewImage';
+import { readImg } from '@src/utils/readImg';
 
 const listStore = useListStore();
 const images = computed(() => listStore.editing.images);

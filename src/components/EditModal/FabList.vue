@@ -30,8 +30,8 @@
 <script setup lang="ts">
 import { IonFab, IonIcon, IonFabList, IonFabButton } from '@ionic/vue';
 import { add, cameraOutline, imageOutline } from 'ionicons/icons';
-import { useListStore } from '@/store/list';
-import { useCamera } from '@/utils/useCamera';
+import { useListStore } from '@src/store/list';
+import { useCamera } from '@src/utils/useCamera';
 
 const listStore = useListStore();
 const onImageUpload = (e: Event) => {

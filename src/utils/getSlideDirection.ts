@@ -1,5 +1,5 @@
-import { ListItemType } from "@/models/ListItem";
-import router from '@/router';
+import { ListItemType } from "@src/models/ListItem";
+import router from '@src/router';
 
 export enum SlideDirection {
   Left = 'slide-left',
